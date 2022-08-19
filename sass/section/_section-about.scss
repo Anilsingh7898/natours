@@ -1,0 +1,29 @@
+.section-about {
+  .row {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    text-align: left;
+    padding-left: 13rem;
+
+    .col-1-of-2 {
+      width: 50%;
+    }
+
+    .heading-tertiary {
+      font-size: 1.4rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      //   width: 100%;
+    }
+
+    .paragraph {
+      width: 90%;
+      font-size: 1.2rem;
+
+      &:not(:last-child) {
+        margin-bottom: 3rem;
+      }
+    }
+  }
+}
